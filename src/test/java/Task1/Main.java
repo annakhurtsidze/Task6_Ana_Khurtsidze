@@ -9,5 +9,9 @@ public class Main {
         Car car3 = new Car("test3", 2025, 25000);
         Car car4 = new Car("test4", 2023, -20000);
         Car car5 = new Car("test3", 1999, 25000);
+
+        //Task2 object
+        Car car6 = new Car("Honda");
+        car6.carDetails();
     }
 }

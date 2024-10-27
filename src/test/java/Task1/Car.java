@@ -18,5 +18,17 @@ public class Car {
         }
     }
 
+    public Car(String model){
+        this.model=model;
+        this.year = 2005;
+        this.price = 25000;
+    }
+
+    public void carDetails(){
+        System.out.println("Model is " + model + ";");
+        System.out.println("Year is " + year + ";");
+        System.out.println("Price is " + price + ";");
+    }
+
 
 }
